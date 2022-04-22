@@ -28,7 +28,7 @@ public class Entity {
     y = 400;
     speed = 5;
     angel = 10;
-    power = 5;
+    power = 0;
   }
 
   public void setDefaultValues(Entity e) {

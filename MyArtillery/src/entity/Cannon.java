@@ -21,6 +21,7 @@ public class Cannon extends Entity {
     this.gamePanel = gamePanel;
     this.keyHandler = keyHandler;
     setDefaultValues();
+    this.power = 5;
     getCannonImage();
     width = gamePanel.tileSize * 2;
     height =gamePanel.tileSize * 2;
@@ -64,9 +65,11 @@ public class Cannon extends Entity {
   }
 
   public void draw(Graphics2D g2) {
-
     g2.drawImage(cannonImage, x, y, width, height, null);
-
+    String s1 = String.format("Angel: %d°", angel);
+    String s2 = String.format("Power: %.1f", power);
+    g2.drawString(s1, x + 20, y - 20);
+    g2.drawString(s2, x + 20, y - 5);
   }
 
 

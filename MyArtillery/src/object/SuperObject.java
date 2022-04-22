@@ -12,6 +12,8 @@ public class SuperObject {
   public boolean collision = false;
   public int x, y;
   public int width, height;
+  public int spriteCounter = 0;
+  public int spriteNum = 0;
 
 
   public Rectangle solidArea;

@@ -7,8 +7,6 @@ import java.awt.*;
 import java.io.IOException;
 
 public class OBJ_explosion extends SuperObject {
-  public int spriteCounter;
-  public int spriteNum;
 
   int oriWidth, oriHeight;
   int oriX, oriY;

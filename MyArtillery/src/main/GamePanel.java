@@ -2,9 +2,7 @@ package main;
 
 import entity.Ball;
 import entity.Cannon;
-import object.OBJ_Monster;
-import object.OBJ_explosion;
-import object.SuperObject;
+import object.*;
 import tile.TileManager;
 
 import javax.swing.*;
@@ -34,6 +32,9 @@ public class GamePanel extends JPanel implements Runnable {
   public Cannon cannon = new Cannon(this, keyHandler);
   public Ball ball = new Ball(this, keyHandler);
   public ArrayList<SuperObject> objs = new ArrayList<>();
+  public OBJ_hearts hearts = new OBJ_hearts();
+  public OBJ_Mushrooms mushrooms = new OBJ_Mushrooms();
+  public OBJ_End end = new OBJ_End();
 
   public CollisionChecker collisionChecker = new CollisionChecker(this);
 
@@ -81,10 +82,18 @@ public class GamePanel extends JPanel implements Runnable {
   }
 
   public void update() {
+    if (OBJ_Monster.lives == 0 || ball.lives == 0) {
+      return;
+    }
+
     cannon.update();
     ball.update(cannon);
+
     if (ball.collideObjIndex >= 0) {
       objs.set(ball.collideObjIndex, new OBJ_explosion(objs.get(ball.collideObjIndex)));
+    }
+    if (objs.get(0).spriteNum == 6) {
+      objs.set(0, new OBJ_Monster());
     }
 
     for (int i = 0; i < objs.size(); i++) {
@@ -92,6 +101,9 @@ public class GamePanel extends JPanel implements Runnable {
         objs.get(i).update();
       }
     }
+
+    hearts.update(OBJ_Monster.lives);
+    mushrooms.update(ball.lives);
 
   }
 
@@ -112,6 +124,12 @@ public class GamePanel extends JPanel implements Runnable {
 
     cannon.draw(graphics2D);
     ball.draw(graphics2D);
+    hearts.draw(graphics2D);
+    mushrooms.draw(graphics2D);
+
+    if (OBJ_Monster.lives == 0 || ball.lives == 0) {
+      end.draw(graphics2D, OBJ_Monster.lives == 0);
+    }
 
     graphics2D.dispose();
   }
