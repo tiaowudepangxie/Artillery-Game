@@ -1,5 +1,6 @@
-# CS5004Artillery
-Lei Li    Zhu Wang    Jiajie Yin
+# CS5004final Artillery Game
+
+Lei Li / Zhu Wang / Jiajie Yin
 
 
 How to run the code:
