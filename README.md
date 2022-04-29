@@ -9,19 +9,18 @@ How to run the code:
 
 How to play the game:
 
-Press A: move the player to the left
-Press D: move the player to the right
+- Press A: move the player to the left
+- Press D: move the player to the right
 
+- Press space: fire
 
-Press space: fire
+- Press up: increase the power of the cannon
+- Press down: decrease the power of the cannon
 
-Press up: increase the power of the cannon
-Press down: decrease the power of the cannon
-
-Press left: increase the angel of the cannon
-Press right: decrease the angel of the cannon 
+- Press left: increase the angel of the cannon
+- Press right: decrease the angel of the cannon 
 
 
 Win or Lose:
 
-You have 15 bullets as shown on the topleft while the monster has 5 lives as marked on the topright. You will win the game if you can kill the monster 5 times using the 15 bullets. Otherwise, you lose the game if you used up your bullets without throughly destroying the monster.
+- You have 15 bullets as shown on the topleft while the monster has 5 lives as marked on the topright. You will win the game if you can kill the monster 5 times using the 15 bullets. Otherwise, you lose the game if you used up your bullets without throughly destroying the monster.
