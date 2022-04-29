@@ -1,7 +1,6 @@
 # CS5004Artillery
-Zhu Wang
-Jiajie Yin
-Lei Li
+Lei Li    Zhu Wang    Jiajie Yin
+
 
 How to run the code:
 - Please notice that res and src must be source root
