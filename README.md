@@ -1,6 +1,7 @@
 # Artillery Game
 
 ## How to run the code:
+- Run the jar file directly or ..
 - Please notice that res and src must be source root
 - Just go to src/main/Main.java and run the main function. it will start the whole game. 
 
@@ -22,7 +23,7 @@
 - Press right: decrease the angel of the cannon 
 
 
-Win or Lose:
+## Win or Lose:
 
 <img src="https://github.com/tiaowudepangxie/Artillery-Game/blob/main/img/youwin.png" width="300">
 
