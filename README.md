@@ -6,7 +6,7 @@
 
 ## How to play the game:
 
-![Image Link](https://github.com/tiaowudepangxie/Artillery-Game/blob/main/img/start.jpg | width=100)
+<img src="https://github.com/tiaowudepangxie/Artillery-Game/blob/main/img/start.jpg" width="100">
 - Press A: move the player to the left
 - Press D: move the player to the right
 
