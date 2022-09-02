@@ -1,13 +1,10 @@
-# CS5004final Artillery Game
+# Artillery Game
 
-Lei Li / Zhu Wang / Jiajie Yin
-
-
-How to run the code:
+## How to run the code:
 - Please notice that res and src must be source root
 - Just go to src/main/Main.java and run the main function. it will start the whole game. 
 
-How to play the game:
+## How to play the game:
 
 - Press A: move the player to the left
 - Press D: move the player to the right
