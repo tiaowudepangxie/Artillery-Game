@@ -6,16 +6,16 @@
 
 ## How to play the game:
 
-- Press A: move the player to the left
-- Press D: move the player to the right
+Press A: move the player to the left
+Press D: move the player to the right
 
-- Press space: fire
+Press space: fire
 
-- Press up: increase the power of the cannon
-- Press down: decrease the power of the cannon
+Press up: increase the power of the cannon
+Press down: decrease the power of the cannon
 
-- Press left: increase the angel of the cannon
-- Press right: decrease the angel of the cannon 
+Press left: increase the angel of the cannon
+Press right: decrease the angel of the cannon 
 
 
 Win or Lose:
